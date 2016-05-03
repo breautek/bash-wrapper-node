@@ -1,2 +1,2 @@
 'use strict';
-module.exports = require('lib/bash.js');
+module.exports = require('./lib/bash.js');
