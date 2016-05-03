@@ -1,3 +1,5 @@
+'use strict';
+
 var Bash = require('./lib/bash.js');
 
 Bash.exec('ls', function(error, output) {
