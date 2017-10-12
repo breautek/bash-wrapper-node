@@ -26,3 +26,8 @@ Synchronously executes the commandString and returns a buffer containing the std
 
 Note: Never pass unsanitised user input to this function. Any input containing shell metacharacters may be used to trigger arbitrary command execution.
 
+### void isSupported(callback)
+Checks for bash support on the running platform. For Mac/Linux, it is assumed to be true. For windows, support will be true if bash.exe from WSL is findable.
+
+Callback contains 1 parameter: (boolean supported)
+
