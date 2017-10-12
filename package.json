@@ -1,6 +1,6 @@
 {
   "name": "bash-wrapper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Module for executing bash commands from a Node environment.",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,5 @@
   },
   "author": "norman@normanbreau.com",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/breautek/bash-wrapper-node#readme"
+  "homepage": "https://github.com/breautek/bash-wrapper-node"
 }
