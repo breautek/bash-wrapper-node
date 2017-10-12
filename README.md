@@ -6,7 +6,9 @@ For Linux/Mac there are no special requirements.
 For Windows, this depends on the Linux Subsystem for Windows, and Windows 10 Creators Update. Previous versions of Windows 10 will not work.
 
 ## Install
-npm install bash-wrapper-node
+npm install @breautek/bash-wrapper
+
+Note: bash-wrapper is deprecated and will no longer receive updates. Use the organization's @breautek/bash-wrapper instead.
 
 ## API
 
