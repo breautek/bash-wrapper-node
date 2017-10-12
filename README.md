@@ -8,6 +8,8 @@ For Windows, this depends on the Linux Subsystem for Windows, and Windows 10 Cre
 ## Install
 npm install @breautek/bash-wrapper
 
+Note: bash-wrapper is deprecated and will no longer receive updates. Use the organization's @breautek/bash-wrapper instead.
+
 ## API
 
 ### string Bash.cwd()
