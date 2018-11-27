@@ -6,12 +6,13 @@ Bash.isSupported(function(support) {
 	console.log(support);
 
 	if (support) {
-		Bash.exec('ls', function(error, output) {
-			if (error) {
-				console.log(error);
-			}
+		console.log(Bash.execSync('ls').toString());
+		// Bash.exec('ls', function(error, output) {
+		// 	if (error) {
+		// 		console.log(error);
+		// 	}
 
-			console.log(output);
-		});
+		// 	console.log(output);
+		// });
 	}
 });
